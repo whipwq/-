@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		458E1C6CC0A243D16B5C3081 /* libPods-ShardLocationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6278F4C1B8DCDE10F3ABC9E6 /* libPods-ShardLocationUITests.a */; };
+		BD23AD41E9F85A1714CD099F /* libPods-ShardLocationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1390BF267861BFDA102488A /* libPods-ShardLocationTests.a */; };
+		E42051571D7528690047379D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E42051561D7528690047379D /* main.m */; };
+		E420515A1D7528690047379D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E42051591D7528690047379D /* AppDelegate.mm */; };
+		E42051621D7528690047379D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42051611D7528690047379D /* Assets.xcassets */; };
+		E42051651D7528690047379D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42051631D7528690047379D /* LaunchScreen.storyboard */; };
+		E42051701D7528690047379D /* ShardLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E420516F1D7528690047379D /* ShardLocationTests.m */; };
+		E420517B1D7528690047379D /* ShardLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E420517A1D7528690047379D /* ShardLocationUITests.m */; };
+		E420518E1D752BB70047379D /* LocationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E420518D1D752BB70047379D /* LocationNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		E42051911D752BD70047379D /* MyLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42051901D752BD70047379D /* MyLocationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E42051981D7553AD0047379D /* PoiInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E42051961D7553AD0047379D /* PoiInfoTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E42051991D7553AD0047379D /* PoiInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42051971D7553AD0047379D /* PoiInfoTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		E4DC8ED51D795A1F0066CCE6 /* RouteSearchViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4DC8ED31D795A1F0066CCE6 /* RouteSearchViewController.mm */; settings = {ASSET_TAGS = (); }; };
+		E4DC8ED61D795A1F0066CCE6 /* RouteSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4DC8ED41D795A1F0066CCE6 /* RouteSearchViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		E4F35E501D78131C00A14947 /* MapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F35E4E1D78131C00A14947 /* MapTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E4F35E511D78131C00A14947 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F35E4F1D78131C00A14947 /* MapTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		E4F35E541D78140500A14947 /* userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F35E531D78140500A14947 /* userInfo.m */; settings = {ASSET_TAGS = (); }; };
+		E4F35E571D78172D00A14947 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F35E561D78172D00A14947 /* TestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E4F35E5E1D781D4A00A14947 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F35E5C1D781D4A00A14947 /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E6AD5C32BC8213357CE4CAE0 /* libPods-ShardLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4254B18A1F57F5EA0A448ECE /* libPods-ShardLocation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E420516C1D7528690047379D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E420514A1D7528690047379D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42051511D7528690047379D;
+			remoteInfo = ShardLocation;
+		};
+		E42051771D7528690047379D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E420514A1D7528690047379D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42051511D7528690047379D;
+			remoteInfo = ShardLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DF1ED4352615D0BA4C4A333 /* Pods-ShardLocationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShardLocationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShardLocationUITests/Pods-ShardLocationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4254B18A1F57F5EA0A448ECE /* libPods-ShardLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShardLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5703B8DEC10E8ED2208AC795 /* Pods-ShardLocationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShardLocationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShardLocationTests/Pods-ShardLocationTests.release.xcconfig"; sourceTree = "<group>"; };
+		6278F4C1B8DCDE10F3ABC9E6 /* libPods-ShardLocationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShardLocationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		676BBB8D2415BC2BC8488766 /* Pods-ShardLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShardLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShardLocation/Pods-ShardLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		785585E2081001537C1CEBCD /* Pods-ShardLocationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShardLocationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShardLocationTests/Pods-ShardLocationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F8C5106C80816C9B51BB3DC /* Pods-ShardLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShardLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShardLocation/Pods-ShardLocation.release.xcconfig"; sourceTree = "<group>"; };
+		9E3D718EBBF9BCFCEE1710CD /* Pods-ShardLocationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShardLocationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShardLocationUITests/Pods-ShardLocationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1390BF267861BFDA102488A /* libPods-ShardLocationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShardLocationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42051521D7528690047379D /* ShardLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShardLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42051561D7528690047379D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E42051581D7528690047379D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E42051591D7528690047379D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		E42051611D7528690047379D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E42051641D7528690047379D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E42051661D7528690047379D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E420516B1D7528690047379D /* ShardLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShardLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E420516F1D7528690047379D /* ShardLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShardLocationTests.m; sourceTree = "<group>"; };
+		E42051711D7528690047379D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42051761D7528690047379D /* ShardLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShardLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E420517A1D7528690047379D /* ShardLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShardLocationUITests.m; sourceTree = "<group>"; };
+		E420517C1D7528690047379D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E420518C1D752BB70047379D /* LocationNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationNavigationController.h; sourceTree = "<group>"; };
+		E420518D1D752BB70047379D /* LocationNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationNavigationController.m; sourceTree = "<group>"; };
+		E420518F1D752BD70047379D /* MyLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocationViewController.h; sourceTree = "<group>"; };
+		E42051901D752BD70047379D /* MyLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationViewController.m; sourceTree = "<group>"; };
+		E42051951D7553AD0047379D /* PoiInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiInfoTableViewCell.h; sourceTree = "<group>"; };
+		E42051961D7553AD0047379D /* PoiInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiInfoTableViewCell.m; sourceTree = "<group>"; };
+		E42051971D7553AD0047379D /* PoiInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoiInfoTableViewCell.xib; sourceTree = "<group>"; };
+		E4DC8ED21D795A1F0066CCE6 /* RouteSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteSearchViewController.h; sourceTree = "<group>"; };
+		E4DC8ED31D795A1F0066CCE6 /* RouteSearchViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RouteSearchViewController.mm; sourceTree = "<group>"; };
+		E4DC8ED41D795A1F0066CCE6 /* RouteSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteSearchViewController.xib; sourceTree = "<group>"; };
+		E4F35E4D1D78131C00A14947 /* MapTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTableViewCell.h; sourceTree = "<group>"; };
+		E4F35E4E1D78131C00A14947 /* MapTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTableViewCell.m; sourceTree = "<group>"; };
+		E4F35E4F1D78131C00A14947 /* MapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
+		E4F35E521D78140500A14947 /* userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userInfo.h; sourceTree = "<group>"; };
+		E4F35E531D78140500A14947 /* userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userInfo.m; sourceTree = "<group>"; };
+		E4F35E551D78172D00A14947 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E4F35E561D78172D00A14947 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E4F35E5B1D781D4A00A14947 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E4F35E5C1D781D4A00A14947 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E420514F1D7528690047379D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AD5C32BC8213357CE4CAE0 /* libPods-ShardLocation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42051681D7528690047379D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD23AD41E9F85A1714CD099F /* libPods-ShardLocationTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42051731D7528690047379D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458E1C6CC0A243D16B5C3081 /* libPods-ShardLocationUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081A2092AB8AD7FC10633797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				676BBB8D2415BC2BC8488766 /* Pods-ShardLocation.debug.xcconfig */,
+				8F8C5106C80816C9B51BB3DC /* Pods-ShardLocation.release.xcconfig */,
+				785585E2081001537C1CEBCD /* Pods-ShardLocationTests.debug.xcconfig */,
+				5703B8DEC10E8ED2208AC795 /* Pods-ShardLocationTests.release.xcconfig */,
+				9E3D718EBBF9BCFCEE1710CD /* Pods-ShardLocationUITests.debug.xcconfig */,
+				1DF1ED4352615D0BA4C4A333 /* Pods-ShardLocationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E42051491D7528690047379D = {
+			isa = PBXGroup;
+			children = (
+				E42051541D7528690047379D /* ShardLocation */,
+				E420516E1D7528690047379D /* ShardLocationTests */,
+				E42051791D7528690047379D /* ShardLocationUITests */,
+				E42051531D7528690047379D /* Products */,
+				081A2092AB8AD7FC10633797 /* Pods */,
+				FC8A4049E8FFB6995903CC28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E42051531D7528690047379D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E42051521D7528690047379D /* ShardLocation.app */,
+				E420516B1D7528690047379D /* ShardLocationTests.xctest */,
+				E42051761D7528690047379D /* ShardLocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E42051541D7528690047379D /* ShardLocation */ = {
+			isa = PBXGroup;
+			children = (
+				E42051881D752B790047379D /* Classes */,
+				E42051581D7528690047379D /* AppDelegate.h */,
+				E42051591D7528690047379D /* AppDelegate.mm */,
+				E42051611D7528690047379D /* Assets.xcassets */,
+				E42051631D7528690047379D /* LaunchScreen.storyboard */,
+				E42051661D7528690047379D /* Info.plist */,
+				E42051551D7528690047379D /* Supporting Files */,
+			);
+			path = ShardLocation;
+			sourceTree = "<group>";
+		};
+		E42051551D7528690047379D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E42051561D7528690047379D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E420516E1D7528690047379D /* ShardLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E420516F1D7528690047379D /* ShardLocationTests.m */,
+				E42051711D7528690047379D /* Info.plist */,
+			);
+			path = ShardLocationTests;
+			sourceTree = "<group>";
+		};
+		E42051791D7528690047379D /* ShardLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E420517A1D7528690047379D /* ShardLocationUITests.m */,
+				E420517C1D7528690047379D /* Info.plist */,
+			);
+			path = ShardLocationUITests;
+			sourceTree = "<group>";
+		};
+		E42051881D752B790047379D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E42051891D752B790047379D /* Controllers */,
+				E420518A1D752B790047379D /* Models */,
+				E420518B1D752B790047379D /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E42051891D752B790047379D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E420518C1D752BB70047379D /* LocationNavigationController.h */,
+				E420518D1D752BB70047379D /* LocationNavigationController.m */,
+				E420518F1D752BD70047379D /* MyLocationViewController.h */,
+				E42051901D752BD70047379D /* MyLocationViewController.m */,
+				E4F35E551D78172D00A14947 /* TestViewController.h */,
+				E4F35E561D78172D00A14947 /* TestViewController.m */,
+				E4F35E5B1D781D4A00A14947 /* MapViewController.h */,
+				E4F35E5C1D781D4A00A14947 /* MapViewController.m */,
+				E4DC8ED21D795A1F0066CCE6 /* RouteSearchViewController.h */,
+				E4DC8ED31D795A1F0066CCE6 /* RouteSearchViewController.mm */,
+				E4DC8ED41D795A1F0066CCE6 /* RouteSearchViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E420518A1D752B790047379D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4F35E521D78140500A14947 /* userInfo.h */,
+				E4F35E531D78140500A14947 /* userInfo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E420518B1D752B790047379D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E42051951D7553AD0047379D /* PoiInfoTableViewCell.h */,
+				E42051961D7553AD0047379D /* PoiInfoTableViewCell.m */,
+				E42051971D7553AD0047379D /* PoiInfoTableViewCell.xib */,
+				E4F35E4D1D78131C00A14947 /* MapTableViewCell.h */,
+				E4F35E4E1D78131C00A14947 /* MapTableViewCell.m */,
+				E4F35E4F1D78131C00A14947 /* MapTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC8A4049E8FFB6995903CC28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4254B18A1F57F5EA0A448ECE /* libPods-ShardLocation.a */,
+				A1390BF267861BFDA102488A /* libPods-ShardLocationTests.a */,
+				6278F4C1B8DCDE10F3ABC9E6 /* libPods-ShardLocationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E42051511D7528690047379D /* ShardLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E420517F1D7528690047379D /* Build configuration list for PBXNativeTarget "ShardLocation" */;
+			buildPhases = (
+				FD1FE3B6E2484B757244B8DF /* [CP] Check Pods Manifest.lock */,
+				E420514E1D7528690047379D /* Sources */,
+				E420514F1D7528690047379D /* Frameworks */,
+				E42051501D7528690047379D /* Resources */,
+				F2306881F74743C0D89F3880 /* [CP] Embed Pods Frameworks */,
+				A4D6B91D6A72C14BF5A807D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShardLocation;
+			productName = ShardLocation;
+			productReference = E42051521D7528690047379D /* ShardLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E420516A1D7528690047379D /* ShardLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42051821D7528690047379D /* Build configuration list for PBXNativeTarget "ShardLocationTests" */;
+			buildPhases = (
+				C250BD2BE4672C9E2365F37E /* [CP] Check Pods Manifest.lock */,
+				E42051671D7528690047379D /* Sources */,
+				E42051681D7528690047379D /* Frameworks */,
+				E42051691D7528690047379D /* Resources */,
+				E0DAC689A9958EA5E65C4806 /* [CP] Embed Pods Frameworks */,
+				83E5A430141D8F589287DB0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E420516D1D7528690047379D /* PBXTargetDependency */,
+			);
+			name = ShardLocationTests;
+			productName = ShardLocationTests;
+			productReference = E420516B1D7528690047379D /* ShardLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E42051751D7528690047379D /* ShardLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42051851D7528690047379D /* Build configuration list for PBXNativeTarget "ShardLocationUITests" */;
+			buildPhases = (
+				830BCFA48F560DDE550B8321 /* [CP] Check Pods Manifest.lock */,
+				E42051721D7528690047379D /* Sources */,
+				E42051731D7528690047379D /* Frameworks */,
+				E42051741D7528690047379D /* Resources */,
+				2583F77BA16BA70F4B2E5F34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42051781D7528690047379D /* PBXTargetDependency */,
+			);
+			name = ShardLocationUITests;
+			productName = ShardLocationUITests;
+			productReference = E42051761D7528690047379D /* ShardLocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E420514A1D7528690047379D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yons;
+				TargetAttributes = {
+					E42051511D7528690047379D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5G4X89976B;
+					};
+					E420516A1D7528690047379D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E42051511D7528690047379D;
+					};
+					E42051751D7528690047379D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E42051511D7528690047379D;
+					};
+				};
+			};
+			buildConfigurationList = E420514D1D7528690047379D /* Build configuration list for PBXProject "ShardLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E42051491D7528690047379D;
+			productRefGroup = E42051531D7528690047379D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E42051511D7528690047379D /* ShardLocation */,
+				E420516A1D7528690047379D /* ShardLocationTests */,
+				E42051751D7528690047379D /* ShardLocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E42051501D7528690047379D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42051991D7553AD0047379D /* PoiInfoTableViewCell.xib in Resources */,
+				E42051651D7528690047379D /* LaunchScreen.storyboard in Resources */,
+				E4DC8ED61D795A1F0066CCE6 /* RouteSearchViewController.xib in Resources */,
+				E4F35E511D78131C00A14947 /* MapTableViewCell.xib in Resources */,
+				E42051621D7528690047379D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42051691D7528690047379D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42051741D7528690047379D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2583F77BA16BA70F4B2E5F34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShardLocationUITests/Pods-ShardLocationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		830BCFA48F560DDE550B8321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83E5A430141D8F589287DB0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShardLocationTests/Pods-ShardLocationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D6B91D6A72C14BF5A807D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShardLocation/Pods-ShardLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C250BD2BE4672C9E2365F37E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0DAC689A9958EA5E65C4806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShardLocationTests/Pods-ShardLocationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2306881F74743C0D89F3880 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShardLocation/Pods-ShardLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1FE3B6E2484B757244B8DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E420514E1D7528690047379D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DC8ED51D795A1F0066CCE6 /* RouteSearchViewController.mm in Sources */,
+				E4F35E541D78140500A14947 /* userInfo.m in Sources */,
+				E420518E1D752BB70047379D /* LocationNavigationController.m in Sources */,
+				E42051981D7553AD0047379D /* PoiInfoTableViewCell.m in Sources */,
+				E4F35E5E1D781D4A00A14947 /* MapViewController.m in Sources */,
+				E420515A1D7528690047379D /* AppDelegate.mm in Sources */,
+				E42051571D7528690047379D /* main.m in Sources */,
+				E4F35E501D78131C00A14947 /* MapTableViewCell.m in Sources */,
+				E4F35E571D78172D00A14947 /* TestViewController.m in Sources */,
+				E42051911D752BD70047379D /* MyLocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42051671D7528690047379D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42051701D7528690047379D /* ShardLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42051721D7528690047379D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E420517B1D7528690047379D /* ShardLocationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E420516D1D7528690047379D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42051511D7528690047379D /* ShardLocation */;
+			targetProxy = E420516C1D7528690047379D /* PBXContainerItemProxy */;
+		};
+		E42051781D7528690047379D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42051511D7528690047379D /* ShardLocation */;
+			targetProxy = E42051771D7528690047379D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E42051631D7528690047379D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E42051641D7528690047379D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E420517D1D7528690047379D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E420517E1D7528690047379D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E42051801D7528690047379D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676BBB8D2415BC2BC8488766 /* Pods-ShardLocation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ShardLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.utouu.ShardLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E42051811D7528690047379D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8C5106C80816C9B51BB3DC /* Pods-ShardLocation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ShardLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.utouu.ShardLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E42051831D7528690047379D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785585E2081001537C1CEBCD /* Pods-ShardLocationTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShardLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.utouu.ShardLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShardLocation.app/ShardLocation";
+			};
+			name = Debug;
+		};
+		E42051841D7528690047379D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5703B8DEC10E8ED2208AC795 /* Pods-ShardLocationTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShardLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.utouu.ShardLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShardLocation.app/ShardLocation";
+			};
+			name = Release;
+		};
+		E42051861D7528690047379D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3D718EBBF9BCFCEE1710CD /* Pods-ShardLocationUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ShardLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.utouu.ShardLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShardLocation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E42051871D7528690047379D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF1ED4352615D0BA4C4A333 /* Pods-ShardLocationUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ShardLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.utouu.ShardLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShardLocation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E420514D1D7528690047379D /* Build configuration list for PBXProject "ShardLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E420517D1D7528690047379D /* Debug */,
+				E420517E1D7528690047379D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E420517F1D7528690047379D /* Build configuration list for PBXNativeTarget "ShardLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42051801D7528690047379D /* Debug */,
+				E42051811D7528690047379D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42051821D7528690047379D /* Build configuration list for PBXNativeTarget "ShardLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42051831D7528690047379D /* Debug */,
+				E42051841D7528690047379D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42051851D7528690047379D /* Build configuration list for PBXNativeTarget "ShardLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42051861D7528690047379D /* Debug */,
+				E42051871D7528690047379D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E420514A1D7528690047379D /* Project object */;
+}
